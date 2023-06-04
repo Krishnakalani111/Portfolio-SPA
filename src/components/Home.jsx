@@ -54,7 +54,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="md:w-[40%] my-auto" data-aos="fade-left">
+        <div className="md:w-[40%] my-auto" >
           <img
             src={profile}
             alt="my profile"
