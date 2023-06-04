@@ -28,8 +28,8 @@ const Portfolio = () => {
     {
       id: 3,
       src: portfolio,
-      demo: "https://www.youtube.com/",
-      code:""
+      demo: "https://krishnakalani.netlify.app/",
+      code:"https://github.com/Krishnakalani111/Portfolio-SPA"
     },
     {
       id: 4,
