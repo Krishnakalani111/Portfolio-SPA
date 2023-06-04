@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen  text-white my-[2rem]"
+      className="w-full h-screen  text-white mt-[10.5rem] mb-[16rem]"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-2" data-aos="fade-up">

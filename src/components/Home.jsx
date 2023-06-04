@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full mb-[2rem]"
+      className="h-screen w-full"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row ">
         <div className="flex flex-col justify-center h-full w-[100%]">
