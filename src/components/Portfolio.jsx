@@ -1,5 +1,5 @@
 import React,{useEffect} from "react";
-import blog from "../assets/portfolio/Blog.png";
+
 import AOS from "aos";
 import 'aos/dist/aos.css'
 import chat from "../assets/portfolio/chatpage.png"

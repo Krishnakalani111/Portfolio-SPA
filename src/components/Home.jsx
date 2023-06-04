@@ -1,5 +1,4 @@
 import React,{useEffect} from "react";
-import HeroImage from "../assets/HeroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { Typewriter, Cursor } from "react-simple-typewriter";
