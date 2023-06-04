@@ -1,12 +1,12 @@
 import React,{useEffect} from "react";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { Link } from "react-scroll";
+import { MdOutlineArrowCircleUp } from "react-icons/md";
 import { Typewriter, Cursor } from "react-simple-typewriter";
 import AOS from "aos";
 import 'aos/dist/aos.css'
 import profile from "../assets/portfolio/profile.png"
 
-  //bg-gradient-to-b from-black via-black to-gray-800
+
+  
 
 const Home = () => {
    useEffect(() => {
@@ -40,17 +40,19 @@ const Home = () => {
           </p>
 
           <div>
-            <Link
-              to="portfolio"
-              smooth
-              duration={500}
+            <a
+              href="/resumeF.pdf"
+              download="true"
+             
+              target="_blank"
+              rel="noreferrer"
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  cursor-pointer"
             >
-              Portfolio
-              <span className="group-hover:rotate-90 duration-300">
-                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+              Resume
+              <span className="group-hover:rotate-180 duration-500">
+                <MdOutlineArrowCircleUp size={25} className="ml-1" />
               </span>
-            </Link>
+            </a>
           </div>
         </div>
 
@@ -67,3 +69,4 @@ const Home = () => {
 };
 
 export default Home;
+//bg-gradient-to-b from-black via-black to-gray-800
