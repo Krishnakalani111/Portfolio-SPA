@@ -22,7 +22,7 @@ const About = () => {
 
         <p className="text-xl mt-20" data-aos="fade-up">
           Hi, my name is Krishna Kalani and I am a software developer. I am
-          currently pursuing Btech degree in IT along with a minors degree in
+          currently pursuing B.E. degree in IT along with a minors degree in
           AI&ML . I have a passion for solving complex problems and creating
           innovative solutions that enhance user experiences. Throughout my
           journey, I have gained adequate amount of experience in JavaScript for client side as
@@ -35,8 +35,8 @@ const About = () => {
         <p className="text-xl" data-aos="fade-up">
           I am a self-motivated individual who is always eager to learn and stay
           up-to-date with the latest trends in software development. Outside of
-          learning and making projects, I enjoy playing BasketBall and going to Gym.
-          which help me stay creative and focused.
+          bettering my skills and making projects, I enjoy playing BasketBall and going to the gym,
+          which helps me stay creative and focused.
         </p>
       </div>
     </div>
